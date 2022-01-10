@@ -58,7 +58,6 @@ variable "jx_bot_username" {
 variable "jx_bot_token" {
   description = "Bot token used to interact with the Jenkins X cluster git repository"
   type        = string
-  default     = ""
 }
 
 variable "nginx_chart_version" {
